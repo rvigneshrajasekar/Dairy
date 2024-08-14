@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myDairy.com</title>
+    <link rel="icon" href="book.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fruktur&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>MyBook.com</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Notepad</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, expedita harum delectus reprehenderit quibusdam culpa soluta non debitis id ut doloremque, esse, velit sunt odio aperiam ab? Expedita, quisquam sed?</p>
+<button onclick="deletebook(event)">Delete</button>
+        </div>
+        </div>
+
+<div class="popup-overlay"></div>
+<div class="popup-box">
+    <h2>Add Book</h2>
+    <form >
+        <input type="text" placeholder="Book-Tiitle" id="book-title-input">
+        <input type="text" placeholder="book-author" id="book-author-input">
+        <textarea placeholder="Short Description" id="book-desciption-input"></textarea>
+        <button id="add-book">ADD</button>
+        <button id="cancel-popup">CANCEL</button>
+    </form>
+
+</div>
+
+<button class="add-button" id="add-popup-button">+</button>
+    <script src="index.js"></script>
+</body>
+</html>
